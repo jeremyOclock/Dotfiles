@@ -34,3 +34,6 @@ sudo apt-get install nodejs npm -y
 
 # Install Yarn
 sudo npm -g i yarn
+
+# Opening zsh
+zsh
