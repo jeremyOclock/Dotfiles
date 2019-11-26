@@ -2,7 +2,7 @@
 
 ### Do all in one line
 ```bash
-sudo apt-get install git-core && git clone https://github.com/jeremyOclock/Dotfiles.git ~/Dotfiles && cd Dotfiles	&& /bin/sh ./all.sh
+sudo apt-get install git-core && git clone https://github.com/jeremyOclock/Dotfiles.git ~/Dotfiles && cd ~/Dotfiles && /bin/sh ./all.sh
 ```
 
 ---
@@ -13,7 +13,7 @@ sudo apt-get install git-core && git clone https://github.com/jeremyOclock/Dotfi
 ```bash
 sudo apt-get install git-core
 git clone https://github.com/jeremyOclock/Dotfiles.git ~/Dotfiles
-cd Dotfiles	
+cd ~/Dotfiles
 ```
 
 ### Do all
