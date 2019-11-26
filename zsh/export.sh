@@ -1,0 +1,1 @@
+cp ~/.zshrc $(cd "$(dirname "$0")"; pwd -P)/data
