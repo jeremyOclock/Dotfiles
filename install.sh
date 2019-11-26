@@ -1,7 +1,6 @@
 # Install snap
 sudo apt install snapd -y
 
-
 # Install vscode
 sudo snap install code --classic
 
@@ -34,6 +33,9 @@ sudo apt-get install nodejs npm -y
 
 # Install Yarn
 sudo npm -g i yarn
+
+# Install lsd
+sudo snap install lsd --classic
 
 # Opening zsh
 zsh
