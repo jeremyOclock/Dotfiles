@@ -1,8 +1,9 @@
 # Dotfiles
 
 ### Do all in one line
+
 ```bash
-sudo apt-get install git-core && git clone https://github.com/jeremyOclock/Dotfiles.git ~/Dotfiles && cd ~/Dotfiles && /bin/sh ./all.sh
+sudo apt-get install git-core make && git clone https://github.com/jeremyOclock/Dotfiles.git ~/Dotfiles && cd ~/Dotfiles && make all
 ```
 
 ---
@@ -10,15 +11,17 @@ sudo apt-get install git-core && git clone https://github.com/jeremyOclock/Dotfi
 ## Installation
 
 ### Setup
+
 ```bash
-sudo apt-get install git-core
+sudo apt-get install git-core make
 git clone https://github.com/jeremyOclock/Dotfiles.git ~/Dotfiles
 cd ~/Dotfiles
 ```
 
 ### Do all
+
 ```bash
-/bin/sh ./all.sh
+make all
 ```
 
 ---
@@ -26,30 +29,37 @@ cd ~/Dotfiles
 ## Configs
 
 ### Global config
+
 ```bash
-/bin/sh ./global-config.sh
+make global-config
 ```
 
 ### Import all
+
 ```bash
-/bin/sh ./import-all.sh
+make import-all
 ```
 
 ### Export all
+
 ```bash
-/bin/sh ./export-all.sh
+make export-all
 ```
 
 ### Importing soft's config
+
 ```bash
-/bin/sh ./<soft_name>/import.sh
+/bin/bash ./<soft_name>/import.sh
 ```
+
 Change `<soft_name>` per the soft's config you want to import
 
 ### Exporting soft's config
+
 ```bash
-/bin/sh ./<soft_name>/export.sh
+/bin/bash ./<soft_name>/export.sh
 ```
+
 Change `<soft_name>` per the soft's config you want to export
 
 ---
@@ -57,11 +67,13 @@ Change `<soft_name>` per the soft's config you want to export
 ## Others
 
 ### Install all softs
+
 ```bash
-/bin/sh ./install.sh
+make install
 ```
 
 ### Generate ssh key
+
 ```bash
-/bin/sh ./ssh.sh
+make ssh
 ```

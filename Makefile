@@ -11,6 +11,9 @@ all:
 	# Keep at the end
 	make ssh
 
+	# Open zsh
+	zsh
+
 install:
 	bash ./install.sh
 
@@ -35,4 +38,4 @@ global-config:
 
 ssh:
 	ssh-keygen
-	cat ~/.ssh/id_rsa.pub
+	echo "\n\nSSH KEY:\n\n$$(cat ~/.ssh/id_rsa.pub)\n\n\n"

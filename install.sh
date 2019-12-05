@@ -36,6 +36,3 @@ sudo npm -g i yarn
 
 # Install lsd
 sudo snap install lsd --classic
-
-# Opening zsh
-zsh
